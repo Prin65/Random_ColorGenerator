@@ -6,9 +6,11 @@
     <title>Random color generator with js</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="getColor()">
+<!-- <body onload="getColor()"></body> -->
+ <!-- when i want that the color should be generated when the page is loaded, i can use the onload attribute in the body tag. But in this case, i want the color to be generated when the button is clicked. So, i will remove the onload attribute from the body tag and add the script tag at the end of the body tag. --> 
+<body>
     <div class="main">
-        <!-- <h1>Random Color Generate</h1> -->
+        <h1>Random Color Generate</h1>
         <div class="container">
             <h2 id="color-code">#fff</h2>
             <button id="btn">Generate Color</button>
